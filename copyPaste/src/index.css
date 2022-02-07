@@ -1,0 +1,19 @@
+@import "~bootstrap/dist/css/bootstrap.css";
+header {
+    display: flex;
+    justify-content: center;
+    margin: 15px;
+    color: #198754;
+}
+textarea, input {
+    margin: 3px;
+    max-width: 650px;
+}
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.form-control {
+    border: solid 1px #198754 !important;
+}
